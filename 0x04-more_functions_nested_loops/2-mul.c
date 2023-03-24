@@ -1,12 +1,14 @@
 #include "main.h"
+
 /**
- * *mul - function that multipliestwo numbers
- * *@a: first number
- * *@b: second number
- * *Return: returns result
- * */
+ *  * mul - multiplies two integers
+ *   * @a: multiplies with @b
+ *    * @b: multiplies with @a
+ *     * Return: multiplication of @a and @b
+ *     **/
 
 int mul(int a, int b)
 {
-	return (a * b);
+		return (a * b);
 }
+
